@@ -372,3 +372,22 @@
     margin: 20px auto;
   }
 }
+
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    height: auto;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 20px 10px; 
+  }
+
+  .navbar__tool__items {
+    margin-top: 20px; 
+  }
+
+  .navbar__btn__container {
+    flex-direction: column; 
+    gap: 15px; 
+  }
+}
